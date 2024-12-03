@@ -10,9 +10,11 @@ import About from './pages/About';
 import Product from './pages/Product';
 import Info from './pages/Info';
 import NotFound from './pages/NotFound';
+import Search from './pages/Search';
 
 // components
 import Navbar from './components/Navbar';
+import SearchForm from './components/SearchForm';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
       <BrowserRouter>
         {/** 2 Links com react router */}
         <Navbar />
+        {/** 9 - search*/}
+        <SearchForm />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -29,8 +33,10 @@ function App() {
           <Route path="/products/:id/info" element={<Info />} />
           {/** 4 - rota dinamica */}
           <Route path="/products/:id" element={<Product />} />
+          {/** 9 - search */}
+          <Route path='/search' element={<Search />} />
           {/** 7 - no match route */}
-          <Route path='*'element={<NotFound />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>

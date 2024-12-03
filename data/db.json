@@ -1,19 +1,104 @@
 {
     "products": [
-        {
-            "id": "1",
-            "name": "Camisa",
-            "price": 59.9
-        },
-        {
-            "id": "2",
-            "name": "Calça Vermelha",
-            "price": 95.75
-        },
-        {
-            "id": "3",
-            "name": "Boné aba reta",
-            "price": 29.97
-        }
+      {
+        "id": "1",
+        "name": "Camisa",
+        "price": 59.9
+      },
+      {
+        "id": "2",
+        "name": "Calça Vermelha",
+        "price": 95.75
+      },
+      {
+        "id": "3",
+        "name": "Boné aba reta",
+        "price": 29.97
+      },
+      {
+        "id": "4",
+        "name": "Cueca Box",
+        "price": 19.9
+      },
+      {
+        "id": "5",
+        "name": "Camisa Social Branca",
+        "price": 87.59
+      },
+      {
+        "id": "a147",
+        "name": "Camisa Preta",
+        "price": "198.85"
+      },
+      {
+        "id": "877b",
+        "name": "Capa de chuva",
+        "price": "10.99"
+      },
+      {
+        "id": "cbdd",
+        "name": "Teclado",
+        "price": "115.75"
+      },
+      {
+        "id": "d5d1",
+        "name": "Monitor",
+        "price": "758,89"
+      },
+      {
+        "id": "d368",
+        "name": "Cadeira Gamer",
+        "price": "535.74"
+      },
+      {
+        "id": "fc2f",
+        "name": "Mouse Optico",
+        "price": "19.85"
+      },
+      {
+        "id": "82be",
+        "name": "Cigarro",
+        "price": "8.50"
+      },
+      {
+        "id": "6dfb",
+        "name": "Amaciante",
+        "price": "6"
+      },
+      {
+        "id": "860b",
+        "name": "Desodorante",
+        "price": "6.38"
+      },
+      {
+        "id": "4529",
+        "name": "Computador",
+        "price": "4587,16"
+      },
+      {
+        "id": "d2fb",
+        "name": "Caixa de som átomo",
+        "price": "95.74"
+      },
+      {
+        "id": "8326",
+        "name": "Caixa de som átomo",
+        "price": "95.74"
+      },
+      {
+        "id": "ec27",
+        "name": "Cabo HDMI",
+        "price": "10.00"
+      },
+      {
+        "id": "e068",
+        "name": "Cabo HDMI",
+        "price": "10.00"
+      },
+      {
+        "id": "6bb4",
+        "name": "Cabo HDMI",
+        "price": "10.00"
+      }
     ]
-}
+  }
