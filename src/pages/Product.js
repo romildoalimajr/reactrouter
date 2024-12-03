@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
 
+import { Link } from "react-router-dom";
+
 const Product = () => {
     // 4 - rota dinamica
     const { id } = useParams();
@@ -20,6 +22,8 @@ const Product = () => {
                 <div>
                     <h1>{product.name}</h1>
                     <p>{product.price}</p>
+                    {/**  6 - nested route */}
+                    <Link to={`/products/${product.id}/info`}>Mais informações</Link>
                 </div>
             )}
         </>
